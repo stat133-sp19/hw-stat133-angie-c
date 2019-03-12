@@ -4,7 +4,7 @@ Private Repository for HW assignments of Stat 133 (Spring 2019)
 
 - Name: Angie Chen
 - Github username: angie-c
-- Email: angiechen [at] berkeley.edu
+- Email: angiechen@berkeley.edu
 - Lab section: 111
 - GSI: Yulun Wu
 
