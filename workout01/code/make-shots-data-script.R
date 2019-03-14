@@ -1,8 +1,8 @@
 #################################################
 ## Title: Make Shots Data
 ## Description: Data preparation
-## Input(s):
-## Output(s): 
+## Input(s): .csv files for each player
+## Output(s): tidied data, summmaries for each player in .txt files 
 #################################################
 
 setwd("/Users/angiechen/stat133/hw-stat133/workout01")

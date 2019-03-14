@@ -1,8 +1,8 @@
 #################################################
 ## Title: Make Shots Charts
 ## Description: Data visualization
-## Input(s): 
-## Output(s): 
+## Input(s): data on individual players and their shot data
+## Output(s): data visualization of all players' shots combined
 #################################################
 
 klay_scatterplot <- ggplot(data = thompson) +
@@ -11,7 +11,7 @@ klay_scatterplot <- ggplot(data = thompson) +
 install.packages(c("jpeg", "grid"))
 library("grid")
 library("jpeg")
-library("ggplot2")
+library("ggplot2") 
 
 court_file <- "../workout01/images/nba-court.jpg"
 
