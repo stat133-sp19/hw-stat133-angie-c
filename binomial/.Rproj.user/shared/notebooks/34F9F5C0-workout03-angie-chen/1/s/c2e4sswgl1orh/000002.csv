@@ -1,0 +1,4 @@
+"0","dis1 <- bin_distribution(trials = 5, prob = 0.5)"
+"2","the condition has length > 1 and only the first element will be used"
+"2","the condition has length > 1 and only the first element will be used"
+"0","plot(dis1)"

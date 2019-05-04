@@ -1,0 +1,4 @@
+"0","#Compute skewness"
+"0","aux_skewness = function(trials, prob){"
+"0","  return((1 - 2 * prob) / sqrt(trials * prob * (1 - prob)))"
+"0","}"

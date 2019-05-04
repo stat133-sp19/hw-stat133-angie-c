@@ -1,0 +1,5 @@
+"0","#' @export"
+"0","plot.bindis = function(bindis){"
+"0","  bindis_plot = ggplot(bindis, aes(x = success, y = probability)) + geom_bar(stat = ""identity"") "
+"0","  print(bindis_plot) + xlab(""successes"")"
+"0","}"

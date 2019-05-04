@@ -1,0 +1,4 @@
+"0","#Compute mean"
+"0","aux_mean = function(trials, prob){"
+"0","  return(trials * prob)"
+"0","}"

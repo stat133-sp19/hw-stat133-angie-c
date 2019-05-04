@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556940883439.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1035417037",
+    "id" : "82374599",
+    "lastKnownWriteTime" : 1556940869,
+    "last_content_update" : 1556940869,
+    "path" : "~/stat133/binomial/binomial/man/bin_choose.Rd",
+    "project_path" : "man/bin_choose.Rd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

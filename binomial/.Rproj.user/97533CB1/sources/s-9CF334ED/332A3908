@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556940272656.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "332A3908",
+    "lastKnownWriteTime" : 1556940935,
+    "last_content_update" : 1556940935206,
+    "path" : "~/stat133/binomial/binomial/devtools-flow.R",
+    "project_path" : "devtools-flow.R",
+    "properties" : {
+        "cursorPosition" : "3,25",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

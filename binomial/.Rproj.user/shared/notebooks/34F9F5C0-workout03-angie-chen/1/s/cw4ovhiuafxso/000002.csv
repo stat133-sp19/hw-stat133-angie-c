@@ -1,0 +1,6 @@
+"0","#' @export"
+"0","plot.bincum = function(bincum){"
+"0","  bincum_plot = ggplot(bincum, aes(x = success, y = cumulative)) + geom_line() +"
+"0","            geom_point() + ylab(""probability"") + xlab(""successes"")"
+"0","  return(bincum_plot)"
+"0","}"

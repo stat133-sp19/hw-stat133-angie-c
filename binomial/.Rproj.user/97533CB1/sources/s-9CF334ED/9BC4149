@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1556940303352.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3246235391",
+    "id" : "9BC4149",
+    "lastKnownWriteTime" : 1556929310,
+    "last_content_update" : 1556929310,
+    "path" : "~/stat133/binomial/binomial/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

@@ -1,0 +1,8 @@
+"0","#' @export"
+"0","print.binvar = function(binvar){"
+"0","  writeLines(""Binomial variable"")"
+"0","  writeLines("" "")"
+"0","  writeLines(""Parameters"")"
+"0","  writeLines(paste(""- number of trials:"", binvar[[1]]))"
+"0","  writeLines(paste(""- prob of success:"", binvar[[2]]))"
+"0","}"

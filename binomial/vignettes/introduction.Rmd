@@ -1,0 +1,70 @@
+---
+title: "Getting started with binomial"
+author: "Angie Chen"
+date: "r Sys.Date() "
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started with binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+library(cointoss)
+```
+
+## Overview
+
+"binomial" is an R package that provides functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.
+
+## Mathematical functions
+
+The binomial package includes functions to help you calculate measures such as mean, variance, mode, skewness, and kurtosis. For example, you can use bin_mean to find the mean:
+
+```{r}
+bin_mean(34, 0.4)
+```
+
+## Calculating probability of success
+
+The package also contains functions to help you measure success rates. bin_choose calculates number of compliations in which k successes can occur in n trials, while bin_probability calculates probability of success in a number of trials. 
+
+```{r}
+bin_choose(5, 0)
+bin_probability(success = 55, trials = 100, prob = 0.45)
+```
+
+## Creating a binomial probability distribution
+
+You can display your findings in a data frame. This creates a visualization of the probability of each number of successes occuring. 
+
+```{r}
+bin_distribution(trials = 5, prob = 0.5)
+```
+
+You can also create a cumulative version that adds up the probabilities as the success rate increases.
+
+```{r}
+bin_cumulative(trials = 5, prob = 0.5)
+```
+
+## Creating a plot
+
+The next step is to use your data frame to visualize your data in a graph. 
+
+```{r}
+dis1 <- bin_distribution(trials = 5, prob = 0.5)
+plot(dis1)
+```
+
+## Summarizing your findings
+
+Finally, you can summarize your findings using the summary function.
+
+```{r}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+```
+

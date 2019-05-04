@@ -1,0 +1,512 @@
+print("Parameters")
+print(paste("- number of trials:", binvar[[1]]))
+print("- prob of success:", binvar[[2]])
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+print("Parameters")
+print(paste("- number of trials:", binvar[[1]]))
+print(paste("- prob of success:", binvar[[2]])))
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+print("Parameters")
+print(paste("- number of trials:", binvar[[1]]))
+print(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+print("Parameters")
+print(toString(paste("- number of trials:", binvar[[1]])))
+print(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+print("Parameters")
+print(toString(paste("- number of trials:", binvar[[1]])))
+print(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+print("Parameters")
+print(paste("- number of trials:", binvar[[1]]))
+print(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+writeLines("Parameters")
+print(paste("- number of trials:", binvar[[1]]))
+print(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", binvar[[1]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+print("Binomial variable")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", binvar[[1]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+aux_mean(binvar[[1]], binvar[[2]])
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_mean) = c("binvar")
+return(binvar_mean)
+}
+bin1 <- bin_variable(10, 0.3)
+summary(bin1)
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_mean) = c("binvar")
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+class(binvar_variance) = c("binvar")
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+class(binvar_mode) = c("binvar")
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_skewness) = c("binvar")
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_kurtosis) = c("binvar")
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]]. mean = binvar_mean. variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_mean) = c("binvar")
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+class(binvar_variance) = c("binvar")
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+class(binvar_mode) = c("binvar")
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_skewness) = c("binvar")
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_kurtosis) = c("binvar")
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean. variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_mean) = c("binvar")
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+class(binvar_variance) = c("binvar")
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+class(binvar_mode) = c("binvar")
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_skewness) = c("binvar")
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_kurtosis) = c("binvar")
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean. variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_mean) = c("binvar")
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+class(binvar_variance) = c("binvar")
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+class(binvar_mode) = c("binvar")
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_skewness) = c("binvar")
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_kurtosis) = c("binvar")
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+return(summary_list)
+}
+bin1 <- bin_variable(10, 0.3)
+summary(bin1)
+writeLines(paste("- prob of success:", binvar[[2]]))
+#' @export
+print.summary.binvar = function(binvar){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", binvar[[1]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- prob of success:", binvar[[2]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+}
+#' @export
+print.summary.binvar = function(binvar){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_mean) = c("binvar")
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+class(binvar_variance) = c("binvar")
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+class(binvar_mode) = c("binvar")
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_skewness) = c("binvar")
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+class(binvar_kurtosis) = c("binvar")
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+print(summary_list)
+}
+#' @export
+print.summary.binvar = function(binvar){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+#' @export
+print.summary.binvar = function(summary_list){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+class(summary_list) = c("binvar")
+print(summary_list)
+}
+#' @export
+print.summary.binvar = function(summary_list){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+#' @export
+print.summary.binvar = function(summary_list){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+class(summary_list) = c("summary.binvar")
+print(summary_list)
+}
+#' @export
+print.summary.binvar = function(summary_list){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+print("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+#' @export
+print.summary.binvar = function(summary_list){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+writeLines("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+class(summary_list) = c("summary.binvar")
+return(summary_list)
+}
+#' @export
+print.summary.binvar = function(summary_list){
+print("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+writeLines("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+#' @export
+print.summary.binvar = function(summary_list){
+writeLines("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+writeLines("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+#' @export
+print.binvar = function(binvar){
+print(("Binomial variable"))
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", binvar[[1]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+print.binvar = function(binvar){
+writeLines("Binomial variable")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", binvar[[1]]))
+writeLines(paste("- prob of success:", binvar[[2]]))
+}
+bin1 <- bin_variable(10, 0.3)
+bin1
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+binvar_skewness = aux_mean(binvar[[1]], binvar[[2]])
+binvar_kurtosis = aux_mean(binvar[[1]], binvar[[2]])
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+class(summary_list) = c("summary.binvar")
+return(summary_list)
+}
+#' @export
+print.summary.binvar = function(summary_list){
+writeLines("Summary Binomial")
+writeLines(" ")
+writeLines("Parameters")
+writeLines(paste("- number of trials:", summary_list[[1]]))
+writeLines(paste("- prob of success:", summary_list[[2]]))
+writeLines(" ")
+writeLines("Measures")
+writeLines(paste("- mean:", summary_list[[3]]))
+writeLines(paste("- variance:", summary_list[[4]]))
+writeLines(paste("- mode:", summary_list[[5]]))
+writeLines(paste("- skewness:", summary_list[[6]]))
+writeLines(paste("- kurtosis:", summary_list[[7]]))
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+#' @export
+summary.binvar = function(binvar){
+binvar_mean = aux_mean(binvar[[1]], binvar[[2]])
+binvar_variance = aux_variance(binvar[[1]], binvar[[2]])
+binvar_mode = aux_mode(binvar[[1]], binvar[[2]])
+binvar_skewness = aux_skewness(binvar[[1]], binvar[[2]])
+binvar_kurtosis = aux_kurtosis(binvar[[1]], binvar[[2]])
+summary_list = list(trials = binvar[[1]], prob = binvar[[2]], mean = binvar_mean, variance = binvar_variance, mode = binvar_mode, skewness = binvar_skewness, kurtosis = binvar_kurtosis)
+class(summary_list) = c("summary.binvar")
+return(summary_list)
+}
+bin1 <- bin_variable(trials = 10, p = 0.3)
+binsum1 <- summary(bin1)
+binsum1
+bin_mean(10, 0.3)
+bin_variance(10, 0.3)
+bin_mode(10, 0.3)
+bin_skewness(10, 0.3)
+bin_kurtosis(10, 0.3)
+#' @title bin choose
+#' @description calculates number of compliations in which k successes can occur in n trials
+#' @param n number of trials
+#' @param k number of successes
+#' @return number of compliations in which k successes can occur in n trials
+#' @examples bin_choose(5, 0)
+#' @export
+bin_choose = function(n, k){
+n_com = factorial(n) / (factorial(k) * factorial(n - k))
+if (k > n){
+stop("k cannot be greater than n")
+}
+else {
+return(n_com)
+}
+}
+#' @title bin probability
+#' @description calculates probability of success in a number of trials
+#' @param success number of successes
+#' @param trials number of trials
+#' @param prob probability value
+#' @return probability of success in a number of trials
+#' @export
+#' @examples bin_probability(success = 2, trials = 5, prob = 0.5)
+bin_probability = function(success, trials, prob){
+if (check_trials(trials) != TRUE){
+stop("invalid trials value")
+}
+else if (check_success(success, trials) != TRUE){
+stop("invalid success value")
+}
+else if (check_prob(prob) != TRUE){
+stop("invalid prob value")
+}
+else {
+probability = bin_choose(trials, success) * (prob ^ success) * ((1 - prob) ^ (trials - success))
+return(probability)
+}
+}
+#' @title bin cumulative distribution
+#' @description creates a data frame of a binomial cumulative distribution
+#' @param trials number of trials
+#' @param prob probability value
+#' @return data.frame with two classes: c("bincum", "data.frame")
+#' @export
+#' @examples bin_cumulative(trials = 5, prob = 0.5)
+bin_cumulative = function(trials, prob){
+cumulative_df = data.frame(0:trials, bin_probability(0:trials, trials, prob), cumsum(bin_probability(0:trials, trials, prob)))
+colnames(cumulative_df) = c("success", "probability", "cumulative")
+class(cumulative_df) = c("bincum", "data.frame")
+return(cumulative_df)
+}
+devtools::use_testthat()
+install.packages("testthat")
+library(testthat)
+devtools::use_testthat()
+check_trial = function(trials){
+devtools::use_testthat()
+devtools::use_testthat()
+}
+devtools::use_testthat()
+install.packages("devtools")
+library(testthat)
+library(devtools)
+devtools::use_testthat()
+knitr::opts_chunk$set(echo = TRUE)
+library(testthat)
+library(devtools)
+devtools::use_testthat()
+devtools::use_testthat()
+devtools::test()
+bin_kurtosis(10, 0.3)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/test-binomial.R', echo=TRUE)
+source('~/stat133/binomial/tests/testthat.R', echo=TRUE)
+source('~/stat133/binomial/tests/testthat.R', echo=TRUE)

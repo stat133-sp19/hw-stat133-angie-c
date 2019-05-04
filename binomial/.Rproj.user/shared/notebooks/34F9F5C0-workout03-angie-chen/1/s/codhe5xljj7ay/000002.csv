@@ -1,0 +1,4 @@
+"0","#Compute variance"
+"0","aux_variance = function(trials, prob){"
+"0","  return((trials * prob) * (1 - prob))"
+"0","}"
